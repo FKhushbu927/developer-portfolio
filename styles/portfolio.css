@@ -41,7 +41,7 @@
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 /* ========================header and navigation styles===============================*/
@@ -50,6 +50,7 @@ nav {
     justify-content: space-between;
     margin-left: 200px;
     margin-right: 200px;
+    padding: 45px 200px;
 }
 
 nav li {
