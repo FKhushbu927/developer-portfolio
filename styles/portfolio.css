@@ -1,51 +1,76 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-   /* font-family: 'Poppins', sans-serif; */
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     background: #FD6E0A;
     border-radius: 5px;
     border: none;
     font-style: normal;
     padding: 18px 35px;
-    font-weight: 700; 
+    font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
-  
+
 }
-.header{
+
+.btn-contact {
+    background: #FFF8F3;
+    border-radius: 5px;
+    border: 3px solid #FD6E0A;
+    font-style: normal;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+
+}
+
+.banner-button {
+    display: flex;
+    gap: 30px;
+}
+
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position:   bottom right,left;
-    padding-top: 50px;
+    background-position: bottom right, left;
+    padding-top: 100px;
 }
-/* header and navigation styles */
- nav{
-    display: flex; 
+
+/* ========================header and navigation styles===============================*/
+nav {
+    display: flex;
     justify-content: space-between;
-    /* margin: 50px 200px;  */
     margin-left: 200px;
     margin-right: 200px;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
-    /* position: absolute; */
-    /* width: 189px;
-    height: 27px; */
-    /* left: 980px; */
-   
 }
-nav ul{
+
+nav ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+
+nav ul {
     display: flex;
     align-items: center;
 }
-.nav-title{
+
+.nav-title {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 800;
@@ -53,20 +78,23 @@ nav ul{
     line-height: 61px;
 
 }
-/* banner styles */
 
-.banner{
+/*=================================== banner styles=============================== */
+
+.banner {
     margin: 0 200px;
     display: flex;
     align-items: center;
 }
-.banner-sub-title{
+
+.banner-sub-title {
     font-size: 45px;
     font-weight: 600;
-    line-height: 61px; 
+    line-height: 61px;
     margin-bottom: 5px;
 }
-.banner-title{
+
+.banner-title {
     font-style: normal;
     font-weight: 700;
     font-size: 85px;
@@ -74,7 +102,8 @@ nav ul{
     color: #181818;
     margin-bottom: 20px;
 }
-.banner-description{
+
+.banner-description {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -83,28 +112,32 @@ nav ul{
     margin-bottom: 30px;
 
 }
-/* main-section */
-main{
+
+/* ================================= main-section ================================= */
+main {
     min-width: 1140px;
     margin: 0 auto;
 }
-/* about section styles */
-.about-me{
-     
-      margin: 130px 230px ;
-      background: #FFF8F3;
-      border-radius: 10px;
-      padding: 130px 150px;
+
+/* ==================================  about section styles ==========================*/
+.about-me {
+
+    margin: 130px 230px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
 }
-.section-title{
-     text-align: center;
-     margin-bottom: 30px;
-     font-weight: 700;
-     font-size: 35px;
-     line-height: 48px;
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
 
 }
-.section-description{
+
+.section-description {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -113,42 +146,177 @@ main{
     color: #757575;
     margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-me .info-title{
-  
+
+.about-me .info-title {
+
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
     color: #757575;
 }
-.about-info .info-description{
+
+.about-info .info-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Dark 02 */
+
+    color: #474747;
 
 }
-.what-i-do{
-    margin: 130px 230px ;
-   
+
+.what-i-do {
+    margin: 130px 230px;
+
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     gap: 24px;
 
 }
-.skill{
+
+.skill {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
 }
-.skill-title{
+
+.skill-title {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 30px;
 }
-.skill-description{
+
+.skill-description {
     color: #757575;
+}
+
+/* =========================== resume styles ==============================*/
+.resume {
+    margin: 130px 230px;
+}
+
+.resume-content {
+    margin-top: 113px;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.resume-item .title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #474747;
+}
+
+.resume-item .sub-title {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 18px;
+    margin-top: 10px;
+
+}
+
+.resume-item .description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+hr {
+
+    border: 1px solid #D1D1D1;
+
+}
+
+.resume-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact {
+    display: flex;
+    gap: 60px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+
+}
+
+.contact-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    padding-right: 24px;
+}
+
+input [type="text"],
+input[type="email"] {
+    height: 40px;
+}
+
+.footer-section {
+    width: 100%;
+
+}
+
+.footer-section p {
+    color: #FD6E0A;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
 }
